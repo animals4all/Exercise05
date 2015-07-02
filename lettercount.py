@@ -16,6 +16,8 @@ def main():
 				if char == letter:
 					occurences += 1
 		print str(occurences)
+		
+	fileObj.close()
 
 if __name__ == "__main__":
 	main()
